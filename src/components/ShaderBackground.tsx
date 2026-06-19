@@ -57,17 +57,13 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
         </defs>
       </svg>
 
-      {/* Background Shaders */}
-      <MeshGradient
-        className="absolute inset-0 w-full h-full"
-        colors={["#000000", "#8b5cf6", "#ffffff", "#1e1b4b", "#4c1d95"]}
-        speed={0.3}
+      {/* Background Photo */}
+      <img
+        src="https://cdn.poehali.dev/projects/544729be-57da-4a39-b347-c7b84b8aa46a/bucket/124f8a0a-7932-4ad6-a20c-4005e62dca5e.jpg"
+        alt="Каролина — фотограф Самара"
+        className="absolute inset-0 w-full h-full object-cover object-top"
       />
-      <MeshGradient
-        className="absolute inset-0 w-full h-full opacity-60"
-        colors={["#000000", "#ffffff", "#8b5cf6", "#000000"]}
-        speed={0.2}
-      />
+      <div className="absolute inset-0 bg-black/45" />
 
       {children}
     </div>
