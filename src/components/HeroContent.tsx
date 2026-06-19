@@ -29,9 +29,9 @@ export default function HeroContent() {
           <a href="https://www.instagram.com/withkarolinaa?igsh=MWp3YXNvczk4aDB4dw==" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer">
             Портфолио
           </a>
-          <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
+          <a href="https://www.instagram.com/withkarolinaa?igsh=MWp3YXNvczk4aDB4dw==" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
             Заказать съёмку
-          </button>
+          </a>
         </div>
       </div>
     </main>
