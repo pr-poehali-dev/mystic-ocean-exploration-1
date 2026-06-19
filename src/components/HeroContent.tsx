@@ -21,8 +21,7 @@ export default function HeroContent() {
 
         {/* Description */}
         <p className="text-xs font-light text-white/70 mb-4 leading-relaxed">
-          Снимаю портреты, love story, семейные и репортажные съёмки. Ловлю настоящие эмоции и превращаю их
-          в фотографии, к которым хочется возвращаться снова и снова.
+          Снимаю портреты, love story. Ловлю настоящие эмоции и превращаю их в фотографии, к которым хочется возвращаться снова и снова.
         </p>
 
         {/* Buttons */}
