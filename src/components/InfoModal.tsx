@@ -50,24 +50,6 @@ export default function InfoModal({ onClose }: InfoModalProps) {
         <h3 className="text-white text-lg font-medium mb-4 uppercase tracking-wide">Стоимость</h3>
 
         <div className="grid gap-4 mb-8">
-          {/* Уличная */}
-          <div className="bg-white/5 border border-white/15 rounded-2xl p-5">
-            <div className="flex justify-between items-start mb-3">
-              <div>
-                <p className="text-white/60 text-xs uppercase tracking-wide">Уличная</p>
-                <p className="text-white text-lg font-medium">Съёмка</p>
-              </div>
-              <span className="text-white text-xl font-light">3 500 ₽</span>
-            </div>
-            <p className="text-white/60 text-xs mb-3">Если вы хотите сохранить период жизни, давно мечтали о красивых фото или любите естественный свет.</p>
-            <ul className="text-white/75 text-xs space-y-1">
-              <li>• Помощь с позированием и выбором образа</li>
-              <li>• 1–1,5 часа съёмки</li>
-              <li>• 30+ фотографий в авторской обработке (цвет + ч/б)</li>
-              <li>• Готовность фото до 5 дней</li>
-            </ul>
-          </div>
-
           {/* Студийная */}
           <div className="bg-white/5 border border-white/15 rounded-2xl p-5">
             <div className="flex justify-between items-start mb-3">
@@ -81,10 +63,28 @@ export default function InfoModal({ onClose }: InfoModalProps) {
             <ul className="text-white/75 text-xs space-y-1">
               <li>• Помощь с позированием и выбором образа</li>
               <li>• 1 час съёмки</li>
-              <li>• 25+ фотографий в авторской обработке (цвет + ч/б)</li>
+              <li>• 25+ фотографий в авторской обработке и ретуши (цвет + ч/б)</li>
               <li>• Готовность фото до 5 дней</li>
               <li>• Помощь с подбором студии</li>
               <li className="text-white/50">* Аренда студии оплачивается отдельно</li>
+            </ul>
+          </div>
+
+          {/* Уличная */}
+          <div className="bg-white/5 border border-white/15 rounded-2xl p-5">
+            <div className="flex justify-between items-start mb-3">
+              <div>
+                <p className="text-white/60 text-xs uppercase tracking-wide">Уличная</p>
+                <p className="text-white text-lg font-medium">Съёмка</p>
+              </div>
+              <span className="text-white text-xl font-light">3 500 ₽</span>
+            </div>
+            <p className="text-white/60 text-xs mb-3">Если вы хотите сохранить период жизни, давно мечтали о красивых фото или любите естественный свет.</p>
+            <ul className="text-white/75 text-xs space-y-1">
+              <li>• Помощь с позированием и выбором образа</li>
+              <li>• 1–1,5 часа съёмки</li>
+              <li>• 30+ фотографий в авторской обработке и ретуши (цвет + ч/б)</li>
+              <li>• Готовность фото до 5 дней</li>
             </ul>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
           <li>• Ретушь деликатная: убираю временные высыпания, торчащие нитки, при необходимости корректирую макияж</li>
           <li>• Исходные фотографии не передаются</li>
           <li>• Готовые фото отправляются ссылкой на Яндекс Диск, хранится 1 месяц</li>
-          <li>• Если не хотите публикации в портфолио — сообщите заранее</li>
+          <li>• Если для вас важна конфиденциальность и вы не хотите публикации фотографий в моём портфолио, пожалуйста, сообщите об этом заранее</li>
         </ul>
 
         <a
