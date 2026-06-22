@@ -83,6 +83,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
               <li>• 1 час съёмки</li>
               <li>• 25+ фотографий в авторской обработке (цвет + ч/б)</li>
               <li>• Готовность фото до 5 дней</li>
+              <li>• Помощь с подбором студии</li>
               <li className="text-white/50">* Аренда студии оплачивается отдельно</li>
             </ul>
           </div>
