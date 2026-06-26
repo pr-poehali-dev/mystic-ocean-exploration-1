@@ -62,10 +62,10 @@ export default function InfoModal({ onClose }: InfoModalProps) {
             <p className="text-white/60 text-xs mb-3">Если хочется спокойной атмосферы, минимализма и мягкого света в любое время года.</p>
             <ul className="text-white/75 text-xs space-y-1">
               <li>• Помощь с позированием и выбором образа</li>
+              <li>• Помощь с подбором студии</li>
               <li>• 1 час съёмки</li>
               <li>• 25+ фотографий в авторской обработке и ретуши (цвет + ч/б)</li>
               <li>• Готовность фото до 5 дней</li>
-              <li>• Помощь с подбором студии</li>
               <li className="text-white/50">* Аренда студии оплачивается отдельно</li>
             </ul>
           </div>
@@ -82,6 +82,7 @@ export default function InfoModal({ onClose }: InfoModalProps) {
             <p className="text-white/60 text-xs mb-3">Если вы хотите сохранить период жизни, давно мечтали о красивых фото или любите естественный свет.</p>
             <ul className="text-white/75 text-xs space-y-1">
               <li>• Помощь с позированием и выбором образа</li>
+              <li>• Помощь с подбором локации</li>
               <li>• 1–1,5 часа съёмки</li>
               <li>• 30+ фотографий в авторской обработке и ретуши (цвет + ч/б)</li>
               <li>• Готовность фото до 5 дней</li>
