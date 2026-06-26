@@ -59,7 +59,7 @@ export default function ShaderBackground({ children }: ShaderBackgroundProps) {
 
       {/* Background Photo */}
       <img
-        src="https://cdn.poehali.dev/projects/544729be-57da-4a39-b347-c7b84b8aa46a/bucket/8f826695-9b26-489f-8371-a72fa953b4b9.png"
+        src="https://cdn.poehali.dev/projects/544729be-57da-4a39-b347-c7b84b8aa46a/bucket/aeb2513f-29c1-4748-bcaa-754f5cd13793.png"
         alt="Каролина — фотограф Самара"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
